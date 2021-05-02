@@ -8,5 +8,3 @@ burger.addEventListener('click' , ()=>{
     navbar.classList.toggle('vclass')
     logo.classList.toggle('vclass')
 })
-
-alert("This website is just for project purpose not for commercial")
