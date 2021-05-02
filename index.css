@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    width: 100vw;
+    height: 4rem;
+    background-color: rgba(0, 0, 0 , .2);
+    display: flex;
+}
+
+.burger{
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    display: none;
+}
+
+.line{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 4px;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1 a{
+    font-family: 'New Tegomin', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.navbar ul a:hover{
+    color: whitesmoke;
+}
+
+.contain-1{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-1 h1{
+    font-size: 50px;
+}
+
+.contain-1 img{
+    width: 140px;
+}
+.contain-1 p{
+    font-size: 20px;
+}
+.contain-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain-2 h1{
+    font-family: 'New Tegomin', serif;
+    margin: 30px;
+}
+
+.contain-2 img{
+    width: 500px;
+}
+
+.place-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.place-1 img{
+    width: 30%;
+    margin: 60px;
+}
+.place-1 p{
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+}
+
+.place-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.place-2 img{
+    width: 30%;
+    margin: 60px;
+}
+.place-2 p{
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+}
+
+.place-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.place-3 img{
+    width: 30%;
+    margin: 60px;
+}
+.place-3 p{
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+}
+
+
+.contain-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain-3 h1{
+    font-family: 'New Tegomin', serif;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.contain-3 h2{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.places{
+    display: flex;
+    margin: 23px;
+}
+
+.places img{
+    width: 300px;
+}
+
+.hotels img{
+    padding-right: 23px;
+}
+
+.places p{
+    font-size: 33px;
+    padding-left: 70px;
+}
+
+.tends img{
+    padding-right: 23px;
+}
+
+.contain-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.contain-4 h1{
+    font-family: 'New Tegomin', serif;
+    margin: 30px;
+}
+
+input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.btn1{
+    padding: 8px 25px;
+    margin: 30px;
+}
+
+.footer{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: rgb(145, 145, 255);
+}
